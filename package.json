@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-material-ui",
+  "name": "zoltansimon-me-material-gatsby-contentful",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby and Material UI",
+  "description": "Simple blog with Gatsby, Material UI and Contentful",
   "version": "0.1.0",
-  "author": "Dominic Abela <djmabela@gmail.com>",
+  "author": "Zoltan Simon <zoltan@zoltansimon.me>",
   "dependencies": {
     "@material-ui/core": "^4.0.1",
     "@material-ui/icons": "^4.2.0",
@@ -21,7 +21,11 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
-    "typeface-roboto": "0.0.54"
+    "typeface-roboto": "0.0.54",
+    "gatsby-source-contentful": "^2.3.17",
+    "gatsby-transformer-remark": "^2.8.18",
+    "lodash": "^4.17.15"
+    
   },
   "devDependencies": {
     "prettier": "^1.18.2"

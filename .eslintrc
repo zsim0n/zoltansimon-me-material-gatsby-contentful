@@ -1,0 +1,56 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "react-app",
+    "airbnb",
+    "prettier",
+    "prettier/react",
+    "plugin:jsx-a11y/recommended",
+    "plugin:prettier/recommended",
+    "plugin:jest/recommended",
+    "plugin:flowtype/recommended",
+    "plugin:unicorn/recommended"
+  ],
+  "plugins": [
+    "jsx-a11y",
+    "prettier",
+    "jest",
+    "flowtype",
+    "unicorn"
+  ],
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "jest": true
+  },
+  "settings": {
+    "flowtype": {
+      "onlyFilesWithFlowAnnotation": true
+    }
+  },
+  "rules": {
+    "semi": 0,
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/jsx-props-no-spreading": "off",
+    "unicorn/filename-case": "off",
+    "prettier/prettier": [
+      "error", {
+        "semi": false
+      }
+    ],
+    "unicorn/prevent-abbreviations": [
+      2, {
+        "replacements": {
+          "args": false,
+          "props": false
+        }
+      }
+    ]
+  }
+}
